@@ -1,2 +1,3 @@
-#recetas{float:left;width:75%}
-#menu{float:right;width:25%}
+#recetas{float:left;width:75%;background-color: cyan;}
+#menu{float:right;width:25%;}
+#pie{float:left;width:100%;text-align: center;}
