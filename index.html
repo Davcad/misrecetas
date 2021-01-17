@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf8">
-        <title>Mis recetas</title> 
-        <meta name="description" content="Página web sobre mis recetas">
-        <meta name="keywords" content="recetas, cocina, gastronomía">
-        <link rel="stylesheet" href="estilo.css" type="text/css">
-    </head>
-    <body>
-        <header align="center">Mis recetas</header>
-        <nav align="center">Inicio | Recetas | Contactar</nav>
-        <main>
-            <section id="recetas">
-                <article>
-                    <header><h1>Receta 1</h1></header>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, sequi odio. Illo est dignissimos incidunt quidem veniam alias velit officiis hic maiores labore, accusantium exercitationem iusto odit ipsam voluptatibus reprehenderit?</p>
-                </article>  
-                <artice>
-                    <header><h1>Receta 2</h1></header>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, sequi odio. Illo est dignissimos incidunt quidem veniam alias velit officiis hic maiores labore, accusantium exercitationem iusto odit ipsam voluptatibus reprehenderit?</p>
-                </article> 
-                <article>
-                    <header><h1>Receta 3</h1></header>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, sequi odio. Illo est dignissimos incidunt quidem veniam alias velit officiis hic maiores labore, accusantium exercitationem iusto odit ipsam voluptatibus reprehenderit?</p>
-                </article> 
-            </section>  
-            <aside id="menu">
-                <header><h2>Menú del día</h2></header>
-                <ul>
-                    <li>Receta 6</li>
-                    <li>Receta 7</li>
-                    <li>Receta 9</li>
-                </ul>
-            </aside>
-        </main>
-        <footer id="pie">Footer-2021</footer>
-    </body>
+<head>
+    <meta charset="UFT-8">
+    <meta name="description" content="Página web sobre mis recetas">
+    <meta name="keywords" content="recetas, cocina, menu">
+    <title>Mis recetas</title>
+</head>
+<body>
+    <header style="text-align:center; border: 1px solid black; padding:10px; margin-bottom:10px">
+        <a href="index.html">Mis recetas</a>
+    </header>
+    <nav style="text-align:center;border: 1px solid #aaa;background-color:yellow;margin-bottom:10px">
+        <a href="index.html">Inicio</a>
+        |
+        <a href="recetas.html">Recetas</a>
+        |
+        <a href="contactar.html">Contactar</a>
+    </nav>
+    <main style="display:flex; border:1px solid blue; padding: 60px;margin-bottom:20px;">
+        <section style="display:flex;width:75%;flex-direction:row;flex-wrap:wrap;justify-content:space-around; padding:10px; border: 2px solid black;">
+            <div style="border:1px solid green;width:40%;padding:10px;margin-bottom:5px">
+                <h2 style="text-align:center"><a href="">Receta 1</a></h2>
+                <a href=""><img width="200" height="150" src="_resources/espaguetis-de-calabacin.jpg"></a>
+            </div>
+            <div style="border:1px solid green;width:40%;padding:10px;margin-bottom:5px">
+                <h2 style="text-align:center"> <a href="">Receta 2</a></h2>
+                <a href=""><img width="200" height="150" src="_resources/lubina-con-hummus-de-guisantes.jpg"></a>
+            </div>
+            <div style="border:1px solid green;width:40%;padding:10px;margin-bottom:5px">
+                <h2 style="text-align:center"><a href="">Receta 3</a></h2>
+                <a href=""><img width="200" height="150" src="_resources/tiramisu-express.jpg"></a>
+            </div>
+            <div style="border:1px solid green;width:40%;padding:10px;margin-bottom:5px;">
+                <h2 style="text-align:center"><a href="">Receta 4</a></h2>
+                <a href=""><img width="200" height="150" src="_resources/vichyssoise-de-esparragos-blancos.jpg"></a>
+            </div>
+        </section>
+       
+        <aside style="width:20%; margin-left:auto; border:2px solid black;">
+            <h2>Menú del día</h2>
+            <ul>
+                <li>Receta 6</li>
+                <li>Receta 7</li>
+                <li>Receta 9</li>
+            </ul>
+        </aside>
+    </main>
+    <footer style="text-align: center;border:1px solid black; padding 10px; margin-bottom:10px;">
+        Footer-2021
+    </footer>
+</body>
 </html>
