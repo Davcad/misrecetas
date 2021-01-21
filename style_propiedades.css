@@ -18,7 +18,70 @@
 /*
 *{font-family: verdana} con el selector universal * se aplica a todas las etiquetas *=div,span,p...
 */
+input{
+    font-family:inherit; /*inherit: coge la propiedad heredada del elemento anterior*/
+}
+
 .tamaño{
+    background-color:red;
+    padding:10px;
+    margin:20px;
+    border: 2px;
+    width:100px;  /*La anchura total de la caja será 100+10+10+2+2=124 (se suma el padding y los bordes)*/
+    box-sizing:border-box; /*con esta declaración la anchura de la caja definida en width contiene añadido padding y borders*/
+    width:100vw; /*ajusta la anchura de la caja a la anchura d ela pantalla*/
+    height:auto;
+    height:100vh; /*ajusta la altura de la caja a la altura de la pantalla*/
+    overflow:hidden; /*Para que oculte el contenido de la caja que no quepa en la caja */
+    overflow-y:scroll; /*aparece una barra deslizante para ver el contenido */
+    overflow:auto;
+}
+
+.magin-padding{
+    border: 2px solid red;
+    margin: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin: 20px 10px 12px 15px; /*Aplica margenes diferentes a cada zona en el sentido de las agujas del reloj*/
+    margin: 10px 20px; /*Aplica 10px arriba y abajo y 20 px a la izquierda y derecha*/
+    /*lo mismo es aplicable al padding*/
+}
+
+.test-em{
+    font-size: 1.178rem; /*El tamaño de la fuente es proporcional al zoom de la pantalla*/
+}
+
+.background{
+    background-color:green;
+    background-imagen:url('_resources/vichyssoise-de-esparragos-blancos.jpg');
+    background-position:center;
+    background-position:top;
+    background-position:left;
+    background-size:cover; /*Adapata la imagen al tamaño del contenedor*/
+    background-repeat:repeat; /*Repite la imagen hasta competar la superficie*/
+    background:-webkit-linear-gradient(bottom,white,red); /*Degradados: se puede compiar codigo de internet*/ 
+}
+
+.border{
+    border-width:10px;
+    border-color:red;
+    border-style:solid;
+    border-style:dotted;
+    border-radius:10px;
+
+}
+
+line-height:1.2px;
 
     
+.imagen{
+    height: 300; 
+    width: auto;  /*a la anchura le ponemos auto para que mantenga la proporcionalidad*/
 }
+
+a{
+    color: green !important; /*con important le da prioridad absoluta al estilo*/
+}
+
