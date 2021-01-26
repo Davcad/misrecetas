@@ -1,0 +1,71 @@
+/*Ejercicio 1
+.padre{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    display:flex;
+
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+*/
+/*Ejercicio 2
+
+.padre{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content:space-between;
+
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 200px;
+    width: 100px;
+}
+*/
+/*Ejercicio 3
+.padre{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center; horizontal. Tambien se puede utilizar justify-content:space-around;
+    align-items:center; vertical
+
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+ */
+
+ .padre{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content: flex-start;
+   
+}
+.hijo{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+
+.derecha{
+    margin-left:auto;
+
+}
+
+
