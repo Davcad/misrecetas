@@ -1,0 +1,50 @@
+*{box-sizing:border-box}
+
+body{background-color: :#eee;}
+
+.container{
+    background-color: blue;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 600 px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    /*justify-content:space-between;*/
+    }
+/*
+@media (min-width: 800px){ Cuando la anchura es mayor o igual a 800 px se aplica el css siguiente:
+    .container{
+        background-color: Yellow ;
+    }
+
+}
+@media (max-width: 800px){ Cuando la anchura es menor a 800 px se aplica el css siguiente:
+    .container{
+        font-size: 1.2em;
+    }
+}
+*/
+.hijo{
+    background-color: red;
+    width: 60%;
+    /*margin-right: 10px;*/
+}
+
+.primo{
+    background-color: green;
+    /*width:30%;*/
+    width: calc(40% - 10px);
+    margin-left:10px;
+
+}
+
+.virensis img{
+    width:300px;
+    height:100px; 
+    object-fit: cover; /*recorta la imagen, dejándola en el tamaño original*/
+    object-position: top; /*recorta la imagen, dejándola en el tamaño original parte superior*/
+}
