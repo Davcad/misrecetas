@@ -1,0 +1,16 @@
+
+.separator {
+    font-size:20px;
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+.menu:hover{text-decoration: underline;
+    font-weight:bold;}
+
+.menu{ font-size:20px;
+    color:black;}
+
+.menu-actual{
+    font-size:20px;
+    color:grey;}
