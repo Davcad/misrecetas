@@ -15,6 +15,18 @@ form{
 
 form button{
     background-color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+form button:hover {
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
 }
 
 .fnt-contacto{
