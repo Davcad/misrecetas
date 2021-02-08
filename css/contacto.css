@@ -1,0 +1,24 @@
+
+
+form label{
+    width: 70px;
+    display:inline-block;
+}
+
+form{
+    line-height:2em;
+    border: solid 2px #ccc;
+    border-radius:20px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+form button{
+    background-color: white;
+}
+
+.fnt-contacto{
+
+    font-size:16px;
+
+}
